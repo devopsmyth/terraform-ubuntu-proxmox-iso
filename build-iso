@@ -64,7 +64,7 @@ m4 \
 
 echo Building a custom ISO
 # Build a custom ISO.
-mkisofs -r -V "Ubuntu $VERSION for Terraform" \
+genisoimage -r -V "Ubuntu $VERSION for Terraform" \
 	-cache-inodes -J -l -no-emul-boot \
 	-b isolinux/isolinux.bin \
 	-c isolinux/boot.cat \
