@@ -12,8 +12,8 @@ Build dependencies
 
 * `curl`(1).
 * `m4`(1).
-* `mkisofs`(1) from the `cdrtools` package available from MacPorts or
-  Homebrew.
+* `genisoimage`(1) from the `genisoimage` package available from Debian repostiory and other package archives for Linux.
+	* `mkisofs` and `xorrisofs` are alternatives that work with the same arguments as `genisoimage`.
 
 Runtime dependencies
 --------------------
