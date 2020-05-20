@@ -56,7 +56,7 @@ m4 \
 m4 \
 	-D __USERNAME__="$USERNAME" \
 	sudoers.m4 > "$COPY/sudoers"
-cp "$PUBLIC_KEY" "auto_resize_vda.sh" "$COPY/"
+cp "$PUBLIC_KEY" "auto_resize_sda.sh" "$COPY/"
 m4 \
 	-D __USERNAME__="$USERNAME" \
 	-D __PUBLIC_KEY__="$PUBLIC_KEY" \

@@ -4,7 +4,7 @@
 : ${NICKNAME:="terraform"}
 
 # Arguments given to the download router.
-: ${VERSION:="14.04.5"}
+: ${VERSION:="18.04.4"}
 : ${DISTRO:="server"}
 : ${RELEASE:="latest"}
 
